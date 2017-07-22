@@ -37,6 +37,6 @@ var friends = [
 var apiRoutes = require('./app/routing/apiRoutes')(app, friends);
 var htmlRoutes = require('./app/routing/htmlRoutes')(app);
 
-app.listen(3000, function() {
+app.listen(PORT, function() {
 	console.log('Live at port ' + PORT);
 });
